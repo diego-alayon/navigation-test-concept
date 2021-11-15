@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "item": "item",
+        "subitems": [ "one", "two", "three"]
+    },
+    {
+        "id": "2",
+        "item": "item-2",
+        "subitems": []
+    },
+    {
+        "id": "3",
+        "item": "item-3"
+    }
+]

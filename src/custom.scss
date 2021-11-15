@@ -1,0 +1,31 @@
+$sidebar-bg-color: #f4f4fc;
+$submenu-bg-color: #ededfc;
+$sidebar-color: #131345;
+$highlight-color: #131345;
+// $submenu-bg-color: red;
+$submenu-bg-color-collapsed: #ededfc;
+
+.pro-icon-wrapper {
+    background-color: transparent !important;
+}
+.pro-inner-item .pro-item-content{
+    padding-left: 1rem;
+}
+
+.pro-sidebar-custom {
+    .pro-sidebar{
+        color: #131345;
+    }
+    .pro-icon-wrapper {
+        background-color: transparent;
+    }
+}
+.target-link {
+    display: flex;
+    align-items: center;
+}
+.mr-2 {
+    padding-right: 2.5rem
+}
+
+@import '~react-pro-sidebar/dist/scss/styles.scss';
