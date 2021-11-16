@@ -28,6 +28,7 @@ const App = ({collapsed}) => {
   return (
     <>
       <ProSidebar collapsed={toggle ? true : false} className="pro-sidebar-custom">
+      <div className="text-4xl text-blue-500">text hola</div>
         <SidebarContent>
         <Menu iconShape="square">
         <MenuItem icon={<UilAngleDoubleLeft onClick={() => setToggle(!toggle)} />}>Lansweeper</MenuItem>
